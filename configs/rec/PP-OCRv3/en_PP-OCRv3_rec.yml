@@ -3,7 +3,7 @@ Global:
   use_gpu: true
   epoch_num: 100
   log_smooth_window: 20
-  print_batch_step: 100
+  print_batch_step: 20
   save_model_dir: /content/drive/MyDrive/model_save
   save_epoch_step: 3
   eval_batch_step: [0, 2000]
