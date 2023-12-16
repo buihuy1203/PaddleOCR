@@ -3,8 +3,8 @@ Global:
   use_gpu: true
   epoch_num: 100
   log_smooth_window: 20
-  print_batch_step: 128
-  save_model_dir: ./output/v3_en_mobile
+  print_batch_step: 100
+  save_model_dir: /content/drive/MyDrive/model_save
   save_epoch_step: 3
   eval_batch_step: [0, 2000]
   cal_metric_during_train: true
@@ -27,7 +27,7 @@ Optimizer:
   beta2: 0.999
   lr:
     name: Cosine
-    learning_rate: 0.1
+    learning_rate: 0.001
     warmup_epoch: 1
   regularizer:
     name: L2
