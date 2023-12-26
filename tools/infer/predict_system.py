@@ -226,7 +226,7 @@ def main(args):
                     txts,
                     scores,
                     drop_score=drop_score,
-                    font_path="Arial.ttf")
+                    font_path="/Arial.ttf")
                 if flag_gif:
                     save_file = image_file[:-3] + "png"
                 elif flag_pdf:
